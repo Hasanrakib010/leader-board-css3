@@ -79,13 +79,25 @@ hr{
 }
 /* Courses Styles */
 .courses{
+    width: 870px;
+    height: 362px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 24px;
 }
-.course .course-banner img{
-    Width :224px;
-    Height :104px;
+.course{
+    width: 260px;
+    height: 352px;
+    border: 1px solid honeydew;
+    padding-top: 10%;
+    padding-left: 10%;
+    box-shadow: 3px 3px 6px whitesmoke, -3px -3px 6px whitesmoke;
+}
+.course-banner img{
+    width: 90%;
+}
+.course-detail{
+    width: 90%;
 }
 .course-info    {
     display: flex;
